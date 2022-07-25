@@ -10,12 +10,12 @@ The [Tech Radar](http://techradar.prisme.com) describes the technology landscape
 * Platforms. Things that we build software on top of such as .NET, SQL Server, Windows (etc).
 * Techniques. These include elements of a software development process, such as experience design; and structuring software, such as microservices.
 
-Items on the Tech Radar should only be captured if the cost of change is high or the benefits of standardizing outweigh the drawbacks. Each item on the tech radar should be there for the the good of Redgate or our customers.
+Items on the Tech Radar should only be captured if the cost of change is high or the benefits of standardizing outweigh the drawbacks. Each item on the tech radar should be there for the the good of Prisme or our customers.
 
 Each technology choice is positioned in one of four areas.
-* Adopt – We feel strongly that Redgate should be adopting these items. It’s the default choice.
-* Trial – Worth pursuing. It’s important to understand how to build up this capability. Redgate teams can try this technology on a project that can support the risk.
-* Assess – Worth exploring with the goal of understanding how it will affect Redgate
+* Adopt – We feel strongly that Prisme should be adopting these items. It’s the default choice.
+* Trial – Worth pursuing. It’s important to understand how to build up this capability. Prisme teams can try this technology on a project that can support the risk.
+* Assess – Worth exploring with the goal of understanding how it will affect Prisme
 * Hold - Proceed with caution
 
 The Tech Radar doesn’t provide all the answers, but it should give strong direction in those areas where choice makes a difference. For example, should we be favouring REST API´s over GraphQL? Are we adopting TypeScript? 
@@ -46,9 +46,9 @@ The recommended way to propose a change or spark a discussion is to open a PR. C
 
 We use [Thoughtworks Tech Radar](https://radar.thoughtworks.com/) to generate our Tech Radar. The radar is backed by a single CSV file (that should nicely [render](https://help.github.com/articles/rendering-csv-and-tsv-data/)). CSV files are parsed using `d3.js` so please see their [documentation](https://d3-wiki.readthedocs.io/zh_CN/latest/CSV) for escaping rules. All changes to the Tech Radar should be completed via a PR and merged by someone else.
 
-You can see the latest version at [techradar.prisme.com](http://techradar.prisme.com).
+You can see the latest version at [techradar.prisme.as](http://techradar.prisme.as).
 
-The audience for this is all technical development at Prisme. It's purpose is to help us to align our technical software/practices to build greater consistency at Redgate. 
+The audience for this is all technical development at Prisme. It's purpose is to help us to align our technical software/practices to build greater consistency at Prisme. 
 
 The radar is less appropriate for early stage products where we are still finding product/market fit (the concerns are less likely to be technical at this stage) though we still recommend it as a good set of default options. Our intention is that products we commit to develop/sell adhere to the tech stack in this radar.
 
