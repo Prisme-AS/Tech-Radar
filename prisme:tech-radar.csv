@@ -16,6 +16,7 @@ name,ring,quadrant,isNew,description
 "Application Insights",trial,"Tools",true,"We should avoid vendor lock-in, but we need a telemetry platform (incl. feature usage and error reporting), and this is highly valid choice"
 "Feature Flagging vendors (Launch Darkly?)",assess,"Tools",true,"The complexity around feature flags can become high and we should consider a third party vendor"
 "RESTful APIs",adopt,"Techniques",true,"A REST architectural style is our default choice for building web APIs. Deviations can be made when it makes sense to do so."
+"Consumer Driven Contract Testing (PACT)",assess,"Techniques",true,"Use <a href='https://docs.pact.io/getting_started/what_is_pact_good_for'>Contract testing</a> instead of E2E/integration test to avoid dependencies in the during build and deploy"
 "Infrastructure as code",adopt,"Techniques",true,"Infrastructure should be provisioned through code rather than manually (except for ad-hoc testing)"
 "Automated code style settings",adopt,"Techniques",true,"Codebases should be formatted consistently. Automated code-style settings achieve this without fuss."
 "Static code analysis (linters)",adopt,"Techniques",true,"Static code analysis is invaluable for automatically checking for problems in code. We use ESLint for JS and Roslyn-based analyzers for .NET. We also experimented with SonarQube but our implementation wasn't giving us confidence."
